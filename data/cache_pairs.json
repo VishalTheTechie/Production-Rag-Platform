@@ -1,0 +1,380 @@
+[
+  {
+    "original": "Who serves as the VP of People Operations at Acme Corp?",
+    "paraphrase": "Who holds the position of Vice President of People Operations at Acme Corp?",
+    "near_miss": "Who serves as the VP of Marketing at Acme Corp?",
+    "doc_id": "acme_corp__handbook",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "How many fixed company holidays does Acme Corp recognize each year?",
+    "paraphrase": "What is the total number of fixed company holidays that Acme Corp observes annually?",
+    "near_miss": "How many floating company holidays does Acme Corp recognize each year?",
+    "doc_id": "acme_corp__handbook",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What is the monthly remote workspace allowance provided to active full-time employees at Acme Corp?",
+    "paraphrase": "How much monthly remote workspace allowance is given to active full-time employees at Acme Corp?",
+    "near_miss": "What is the monthly remote workspace allowance provided to active part-time employees at Acme Corp?",
+    "doc_id": "acme_corp__handbook",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What discount does Acme Corp offer on annual subscriptions across all tiers?",
+    "paraphrase": "What discount does Acme Corp provide for yearly subscriptions across every tier?",
+    "near_miss": "What discount does Acme Corp offer on monthly subscriptions across all tiers?",
+    "doc_id": "acme_corp__product_faq",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "Who supervises the customer support team at Acme Corp?",
+    "paraphrase": "Who is the manager of the customer support team at Acme Corp?",
+    "near_miss": "Who supervises the sales team at Acme Corp?",
+    "doc_id": "acme_corp__product_faq",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What is the money-back guarantee timeframe offered by Acme Corp for initial subscription purchases?",
+    "paraphrase": "What duration does Acme Corp's money-back guarantee cover for first-time subscription purchases?",
+    "near_miss": "What is the money-back guarantee timeframe offered by Acme Corp for renewal subscription purchases?",
+    "doc_id": "acme_corp__product_faq",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "Who is the Policy Owner and Chief Information Security Officer (CISO) for Acme Corp's Information Security Policy?",
+    "paraphrase": "Who serves as the Policy Owner and Chief Information Security Officer (CISO) for Acme Corp\u2019s Information Security Policy?",
+    "near_miss": "Who is the Policy Owner for Acme Corp\u2019s Data Privacy Policy?",
+    "doc_id": "acme_corp__it_policy",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What is the minimum password length required by Acme Corp's password and authentication standards?",
+    "paraphrase": "What is the shortest password length mandated by Acme Corp's password and authentication standards?",
+    "near_miss": "What is the minimum password length required by Acme Corp's password and encryption standards?",
+    "doc_id": "acme_corp__it_policy",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "Within what time frame must any security incident or anomaly be reported according to Acme Corp's policy?",
+    "paraphrase": "According to Acme Corp's policy, how soon must a security incident or anomaly be reported?",
+    "near_miss": "According to Acme Corp's policy, within what time frame must a data breach be reported?",
+    "doc_id": "acme_corp__it_policy",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What is the target mitigation SLA for a SEV-1 incident according to ACME Corp's engineering runbook?",
+    "paraphrase": "According to ACME Corp's engineering runbook, what is the target mitigation SLA for a SEV-1 incident?",
+    "near_miss": "What is the target mitigation SLA for a SEV-2 incident according to ACME Corp's engineering runbook?",
+    "doc_id": "acme_corp__runbook",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "Who is listed as the Level 3 Engineering Director escalation contact in ACME Corp's incident hierarchy?",
+    "paraphrase": "Which individual is identified as the Level 3 Engineering Director escalation contact in ACME Corp's incident hierarchy?",
+    "near_miss": "Who is listed as the Level 2 Engineering Director escalation contact in ACME Corp's incident hierarchy?",
+    "doc_id": "acme_corp__runbook",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "At what day and time does the weekly on-call shift handover occur at ACME Corp?",
+    "paraphrase": "When does the weekly on\u2011call shift handover take place at ACME Corp?",
+    "near_miss": "At what day and time does the weekly on\u2011call shift handover occur for Tier\u202f2 support at ACME Corp?",
+    "doc_id": "acme_corp__runbook",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What is the target annual bonus percentage for an L4 level employee at Acme Corp?",
+    "paraphrase": "What percentage does Acme Corp target for the annual bonus of an L4\u2011level employee?",
+    "near_miss": "What is the target annual bonus percentage for an L5 level employee at Acme Corp?",
+    "doc_id": "acme_corp__salary_bands",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "On what date will the approved FY2024 bonuses be paid out to eligible employees at Acme Corp?",
+    "paraphrase": "What is the scheduled payout date for the approved FY2024 bonuses to eligible Acme Corp employees?",
+    "near_miss": "On what date will the approved FY2023 bonuses be paid out to eligible employees at Acme Corp?",
+    "doc_id": "acme_corp__salary_bands",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "Who authored the FY2024 compensation bands and bonus structure document for Acme Corp?",
+    "paraphrase": "Who wrote the FY2024 compensation bands and bonus structure document for Acme Corp?",
+    "near_miss": "Who approved the FY2024 compensation bands and bonus structure document for Acme Corp?",
+    "doc_id": "acme_corp__salary_bands",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What was Acme Corp's actual revenue for Q3 2024?",
+    "paraphrase": "What was the actual revenue reported by Acme Corp for the third quarter of 2024?",
+    "near_miss": "What was Acme Corp's net profit for Q3 2024?",
+    "doc_id": "acme_corp__board_notes",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What was the total purchase price valuation for Acme Corp's acquisition of TaskFlow Inc.?",
+    "paraphrase": "What total purchase price was assigned to Acme Corp's takeover of TaskFlow Inc.?",
+    "near_miss": "What was the cash component of Acme Corp's acquisition of TaskFlow Inc.?",
+    "doc_id": "acme_corp__board_notes",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "How many employees does Acme Corp plan to lay off under the Project Velocity restructuring plan?",
+    "paraphrase": "What is the number of employees Acme Corp intends to lay off under the Project Velocity restructuring plan?",
+    "near_miss": "How many departments will be impacted by Acme Corp's Project Velocity restructuring plan?",
+    "doc_id": "acme_corp__board_notes",
+    "tenant_id": "acme_corp"
+  },
+  {
+    "original": "What color scrubs are clinical personnel required to wear according to the Globex Health employee handbook?",
+    "paraphrase": "According to the Globex Health employee handbook, what color scrubs must clinical staff wear?",
+    "near_miss": "According to the Globex Health employee handbook, what color scrubs are administrative personnel required to wear?",
+    "doc_id": "globex_health__handbook",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "How many unused PTO hours is a Globex Health employee permitted to roll over into the next calendar year?",
+    "paraphrase": "What is the maximum number of unused PTO hours a Globex Health employee can carry over to the next calendar year?",
+    "near_miss": "How many unused PTO hours is a Globex Health manager permitted to roll over into the next calendar year?",
+    "doc_id": "globex_health__handbook",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "Who serves as the Lead Occupational Health Officer directing random drug screenings at Globex Health?",
+    "paraphrase": "Who is the Lead Occupational Health Officer responsible for directing random drug screenings at Globex Health?",
+    "near_miss": "Who serves as the Senior Occupational Health Officer overseeing random drug screenings at Globex Health?",
+    "doc_id": "globex_health__handbook",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the fee charged by Globex Health for cancelling an outpatient appointment with less than 24 hours' notice?",
+    "paraphrase": "How much does Globex Health charge if an outpatient appointment is cancelled with less than 24 hours' notice?",
+    "near_miss": "What is the fee charged by Globex Health for cancelling an inpatient appointment with less than 24 hours' notice?",
+    "doc_id": "globex_health__product_faq",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "How many business days does Globex Health take to process requests for official paper copies of medical records?",
+    "paraphrase": "What is the processing time, in business days, for Globex Health to provide official paper copies of medical records?",
+    "near_miss": "How many business days does Globex Health take to process requests for official electronic copies of medical records?",
+    "doc_id": "globex_health__product_faq",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What percentage prompt-pay discount does Globex Health offer if a bill is paid in full within 10 calendar days of issuance?",
+    "paraphrase": "What is the percentage of the prompt\u2011pay discount that Globex Health provides when a bill is paid in full within ten calendar days of issuance?",
+    "near_miss": "What percentage prompt\u2011pay discount does Globex Health offer if a bill is paid in full within fifteen calendar days of issuance?",
+    "doc_id": "globex_health__product_faq",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the minimum required password length according to the Globex Health cybersecurity policy?",
+    "paraphrase": "According to Globex Health's cybersecurity policy, what is the minimum required password length?",
+    "near_miss": "According to the Globex Health cybersecurity policy, what is the maximum allowed password length?",
+    "doc_id": "globex_health__it_policy",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "How many minutes of inactivity will trigger a screen auto-lock on clinical workstations at Globex Health?",
+    "paraphrase": "What is the inactivity timeout, in minutes, that causes the screen to auto\u2011lock on Globex Health\u2019s clinical workstations?",
+    "near_miss": "What is the inactivity timeout, in minutes, that causes the screen to auto\u2011lock on Globex Health\u2019s administrative workstations?",
+    "doc_id": "globex_health__it_policy",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "Within what timeframe must a Tier 3 Critical incident be reported under Globex Health protocol?",
+    "paraphrase": "What is the reporting deadline for a Tier 3 Critical incident under Globex Health protocol?",
+    "near_miss": "Within what timeframe must a Tier 2 Critical incident be reported under Globex Health protocol?",
+    "doc_id": "globex_health__it_policy",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the maximum acceptable downtime for the Tier 1 PulseEHR system at Globex Health?",
+    "paraphrase": "What is the highest allowable downtime for Globex Health's Tier 1 PulseEHR system?",
+    "near_miss": "What is the maximum acceptable downtime for the Tier 2 PulseEHR system at Globex Health?",
+    "doc_id": "globex_health__runbook",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "Who serves as the Secondary SRE Lead in Globex Health's on-call escalation matrix?",
+    "paraphrase": "Who is listed as the Secondary SRE Lead in Globex Health's on-call escalation matrix?",
+    "near_miss": "Who is listed as the Primary SRE Lead in Globex Health's on-call escalation matrix?",
+    "doc_id": "globex_health__runbook",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "Within how many hours must a formal Post-Mortem Report be created following a P1 or P2 incident at Globex Health?",
+    "paraphrase": "How many hours after a P1 or P2 incident at Globex Health must a formal Post\u2011Mortem Report be produced?",
+    "near_miss": "Within how many hours must a formal Post\u2011Mortem Report be created following a P3 incident at Globex Health?",
+    "doc_id": "globex_health__runbook",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the Annual Incentive Plan (AIP) target percentage for Level L30 staff at Globex Health System?",
+    "paraphrase": "What percentage is the Annual Incentive Plan (AIP) target for Globex Health System employees at Level L30?",
+    "near_miss": "What is the Annual Incentive Plan (AIP) target percentage for Level L40 staff at Globex Health System?",
+    "doc_id": "globex_health__salary_bands",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the one-time retention bonus amount offered to eligible L30 RNs in the ICU or ER at Globex Health System?",
+    "paraphrase": "What is the amount of the one-time retention bonus provided to eligible L30 registered nurses working in the ICU or ER at Globex Health System?",
+    "near_miss": "What is the amount of the one-time retention bonus provided to eligible L31 registered nurses working in the ICU or ER at Globex Health System?",
+    "doc_id": "globex_health__salary_bands",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the night shift differential rate for L20 and L30 staff at Globex Health System?",
+    "paraphrase": "What is the night shift differential rate for L20 and L30 staff at Globex Health System?",
+    "near_miss": "What is the weekend shift differential rate for L20 and L30 staff at Globex Health System?",
+    "doc_id": "globex_health__salary_bands",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What was the consolidated revenue reported by Globex Health for Q3 2024?",
+    "paraphrase": "What is the consolidated revenue figure that Globex Health reported for the third quarter of 2024?",
+    "near_miss": "What was the consolidated revenue reported by Globex Health for Q2 2024?",
+    "doc_id": "globex_health__board_notes",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "What is the agreed total enterprise value for Globex Health's planned acquisition of Meridian Surgical Centers LLC?",
+    "paraphrase": "What total enterprise value was agreed upon for Globex Health's planned acquisition of Meridian Surgical Centers LLC?",
+    "near_miss": "What is the agreed closing date for Globex Health's planned acquisition of Meridian Surgical Centers LLC?",
+    "doc_id": "globex_health__board_notes",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "How many Full-Time Equivalents (FTEs) does Globex Health plan to eliminate under Project Efficiency?",
+    "paraphrase": "What is the number of Full-Time Equivalent positions Globex Health intends to cut as part of Project Efficiency?",
+    "near_miss": "How many Full-Time Equivalents (FTEs) does Globex Health plan to retain under Project Efficiency?",
+    "doc_id": "globex_health__board_notes",
+    "tenant_id": "globex_health"
+  },
+  {
+    "original": "How many unused PTO days can an employee at Initech Labs carry over into the next calendar year?",
+    "paraphrase": "What is the number of unused PTO days that an Initech Labs employee is allowed to roll over into the following calendar year?",
+    "near_miss": "How many unused sick days can an employee at Initech Labs carry over into the next calendar year?",
+    "doc_id": "initech_labs__handbook",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What is the amount of the one-time work-from-home stipend provided to remote employees at Initech Labs?",
+    "paraphrase": "How much is the one-time work\u2011from\u2011home stipend that Initech Labs provides to its remote employees?",
+    "near_miss": "What is the amount of the one-time work\u2011from\u2011home stipend provided to on\u2011site employees at Initech Labs?",
+    "doc_id": "initech_labs__handbook",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "Within how many hours does the Ethics Committee at Initech Labs review all submission logs?",
+    "paraphrase": "How many hours does Initech Labs' Ethics Committee take to review every submission log?",
+    "near_miss": "Within how many days does the Ethics Committee at Initech Labs review all submission logs?",
+    "doc_id": "initech_labs__handbook",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "When was Initech Labs founded?",
+    "paraphrase": "In what year was Initech Labs established?",
+    "near_miss": "What year was Initech Labs' first product released?",
+    "doc_id": "initech_labs__product_faq",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "How long does standard sample processing take once a sample arrives at the Initech Labs laboratory?",
+    "paraphrase": "What is the turnaround time for standard sample processing after a sample is received at Initech Labs?",
+    "near_miss": "How long does expedited sample processing take once a sample arrives at the Initech Labs laboratory?",
+    "doc_id": "initech_labs__product_faq",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What encryption standard does Initech Labs use to protect stored data?",
+    "paraphrase": "Which encryption protocol is employed by Initech Labs to secure data at rest?",
+    "near_miss": "What encryption standard does Initech Labs use to protect data in transit?",
+    "doc_id": "initech_labs__product_faq",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What is the minimum required password length for standard corporate accounts at Initech Labs?",
+    "paraphrase": "What is the shortest password length mandated for regular corporate user accounts at Initech Labs?",
+    "near_miss": "What is the minimum required password length for admin accounts at Initech Labs?",
+    "doc_id": "initech_labs__it_policy",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "Within how many minutes of discovery must security incidents be reported at Initech Labs?",
+    "paraphrase": "What is the required reporting timeframe, in minutes, from the moment a security incident is discovered at Initech Labs?",
+    "near_miss": "Within how many minutes of discovery must a data breach be escalated to senior management at Initech Labs?",
+    "doc_id": "initech_labs__it_policy",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "Who must grant written approval for USB override exceptions at Initech Labs?",
+    "paraphrase": "Which person or role must provide written approval for USB override exceptions at Initech Labs?",
+    "near_miss": "Which person or role must grant written approval for USB override exceptions at Initech Labs for Level\u202f2 devices?",
+    "doc_id": "initech_labs__it_policy",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What is the target acknowledgment time for a P1 Critical incident at Initech Labs?",
+    "paraphrase": "What is the expected acknowledgment timeframe for a P1 Critical incident at Initech Labs?",
+    "near_miss": "What is the target resolution time for a P2 High incident at Initech Labs?",
+    "doc_id": "initech_labs__runbook",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "Who must approve on-call shift trades for engineers at Initech Labs?",
+    "paraphrase": "Which individual is required to authorize on-call shift exchanges for engineers at Initech Labs?",
+    "near_miss": "Who must approve on-call shift trades for senior engineers at Initech Labs?",
+    "doc_id": "initech_labs__runbook",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What is the weekly flat stipend provided to the primary on-call engineer at Initech Labs?",
+    "paraphrase": "How much is the weekly flat stipend given to the primary on\u2011call engineer at Initech Labs?",
+    "near_miss": "What is the weekly flat stipend provided to the secondary on\u2011call engineer at Initech Labs?",
+    "doc_id": "initech_labs__runbook",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "Who authored the Fiscal Year 2025 total compensation structure document for Initech Labs Inc.?",
+    "paraphrase": "Who is the author of Initech Labs Inc.'s Fiscal Year 2025 total compensation structure document?",
+    "near_miss": "Who authored the Fiscal Year 2024 total compensation structure document for Initech Labs Inc?",
+    "doc_id": "initech_labs__salary_bands",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What is the target bonus percentage for Level 4 (L4) employees under the Initech Labs Inc. Annual Incentive Plan?",
+    "paraphrase": "What percentage is the target bonus for Level\u202f4 (L4) staff under Initech Labs Inc.\u2019s Annual Incentive Plan?",
+    "near_miss": "What is the target bonus percentage for Level\u202f5 (L5) employees under the Initech Labs Inc. Annual Incentive Plan?",
+    "doc_id": "initech_labs__salary_bands",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "On what date will annual bonuses for Fiscal Year 2025 be distributed to eligible employees at Initech Labs Inc.?",
+    "paraphrase": "When will the FY 2025 annual bonuses be paid out to eligible employees at Initech Labs Inc.?",
+    "near_miss": "On what date will the annual bonuses for Fiscal Year 2024 be distributed to eligible employees at Initech Labs Inc.?",
+    "doc_id": "initech_labs__salary_bands",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "Who serves as the Chief Executive Officer of Initech Labs Inc.?",
+    "paraphrase": "Who is the Chief Executive Officer of Initech Labs Inc.?",
+    "near_miss": "Who serves as the Chief Financial Officer of Initech Labs Inc?",
+    "doc_id": "initech_labs__board_notes",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "What was the Q3 2024 revenue reported by Initech Labs Inc.?",
+    "paraphrase": "What amount of revenue did Initech Labs Inc. report for the third quarter of 2024?",
+    "near_miss": "What was the net income reported by Initech Labs Inc. for Q3 2024?",
+    "doc_id": "initech_labs__board_notes",
+    "tenant_id": "initech_labs"
+  },
+  {
+    "original": "How many full-time employees will be impacted by the Project Streamline workforce reduction at Initech Labs Inc.?",
+    "paraphrase": "What is the number of full\u2011time employees affected by the Project Streamline workforce reduction at Initech Labs Inc.?",
+    "near_miss": "How many part\u2011time employees will be impacted by the Project Streamline workforce reduction at Initech Labs Inc.?",
+    "doc_id": "initech_labs__board_notes",
+    "tenant_id": "initech_labs"
+  }
+]

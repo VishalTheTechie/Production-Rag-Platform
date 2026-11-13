@@ -6,8 +6,8 @@ from pydantic import BaseModel
 
 import audit
 import auth
+import pipeline
 from docs_admin import get_document_tenant, set_document_acl
-from rag import secure_answer
 
 app = FastAPI(title="RAG Platform")
 bearer = HTTPBearer()
@@ -53,10 +53,15 @@ def login(req: LoginRequest):
 @app.post("/ask")
 def ask(req: AskRequest, user=Depends(current_user)):
     request_id = str(uuid.uuid4())
-    result = secure_answer(user, req.question, request_id)
+    result = pipeline.answer(user, req.question, request_id, mode="optimized", run_label="live")
     return {
         "request_id": request_id,
         "answer": result["answer"],
+        "cache_hit": result["cache_hit"],
+        "route": result["route"],
+        "escalated": result["escalated"],
+        "cost_usd": round(result["cost_usd"], 6),
+        "latency_ms": round(result["latency_ms"]),
         "sources": [
             {"chunk_id": s["chunk_id"], "doc_id": s["doc_id"], "score": round(s["score"], 3)}
             for s in result["sources"]

@@ -12,7 +12,11 @@ _groq = Groq(api_key=config.GROQ_API_KEY, timeout=60) if config.GROQ_API_KEY els
 
 def _call_gemini(prompt, model, json_mode):
     cfg = types.GenerateContentConfig(response_mime_type="application/json") if json_mode else None
-    return _gemini.models.generate_content(model=model, contents=prompt, config=cfg).text
+    resp = _gemini.models.generate_content(model=model, contents=prompt, config=cfg)
+    u = getattr(resp, "usage_metadata", None)
+    tin = (getattr(u, "prompt_token_count", 0) or 0) if u else 0
+    tout = (getattr(u, "candidates_token_count", 0) or 0) if u else 0
+    return resp.text, tin, tout
 
 
 def _call_groq(prompt, model, json_mode):
@@ -24,7 +28,10 @@ def _call_groq(prompt, model, json_mode):
     text = r.choices[0].message.content
     if json_mode:
         text = text.replace("```json", "").replace("```", "").strip()
-    return text
+    usage = getattr(r, "usage", None)
+    tin = (getattr(usage, "prompt_tokens", 0) or 0) if usage else 0
+    tout = (getattr(usage, "completion_tokens", 0) or 0) if usage else 0
+    return text, tin, tout
 
 
 def _candidates(prompt, model, json_mode):
@@ -38,11 +45,13 @@ def _candidates(prompt, model, json_mode):
                 yield f"gemini:{gm}", (lambda gm=gm: _call_gemini(prompt, gm, json_mode))
 
 
-def generate(prompt, model=config.LARGE_MODEL, json_mode=False, tries=3):
+def generate_ex(prompt, model=config.LARGE_MODEL, json_mode=False, tries=3):
+    """Like generate(), but also returns token counts and which model really answered."""
     for label, call in _candidates(prompt, model, json_mode):
         for attempt in range(tries):
             try:
-                return call()
+                text, tin, tout = call()
+                return {"text": text, "input_tokens": tin, "output_tokens": tout, "model": label}
             except Exception as e:
                 msg = str(e)
                 if any(x in msg for x in ("401", "403", "API key", "404", "NOT_FOUND")):
@@ -53,3 +62,7 @@ def generate(prompt, model=config.LARGE_MODEL, json_mode=False, tries=3):
                 time.sleep(wait)
         print(f"  Giving up on {label}, trying the next option")
     raise RuntimeError("Every provider failed. Check your keys and try again in a few minutes.")
+
+
+def generate(prompt, model=config.LARGE_MODEL, json_mode=False, tries=3):
+    return generate_ex(prompt, model, json_mode, tries)["text"]

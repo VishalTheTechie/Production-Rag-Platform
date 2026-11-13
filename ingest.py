@@ -1,9 +1,13 @@
 """Chunks every document, embeds it, stores it in Qdrant WITH its access metadata."""
 import json
 from pathlib import Path
+
 from qdrant_client import QdrantClient, models
+
 import config
+import corpus
 from embeddings import embed
+
 
 def chunk_text(text, size=config.CHUNK_WORDS, overlap=config.CHUNK_OVERLAP):
     words = text.split()
@@ -15,6 +19,7 @@ def chunk_text(text, size=config.CHUNK_WORDS, overlap=config.CHUNK_OVERLAP):
         start += size - overlap
     return chunks
 
+
 def main():
     client = QdrantClient(url=config.QDRANT_URL)
     if client.collection_exists(config.COLLECTION):
@@ -23,7 +28,6 @@ def main():
         collection_name=config.COLLECTION,
         vectors_config=models.VectorParams(size=config.EMBED_DIM, distance=models.Distance.COSINE),
     )
-    # Indexes keep permission filtering fast (used in Project 2)
     for field in ["tenant_id", "allowed_roles", "allowed_users", "doc_id"]:
         client.create_payload_index(
             collection_name=config.COLLECTION,
@@ -57,7 +61,8 @@ def main():
         client.upsert(collection_name=config.COLLECTION, points=points)
         total += len(points)
         print(f"{doc['doc_id']}: {len(points)} chunks")
-    print(f"Done. {total} chunks stored.")
+    v = corpus.bump_version()  # documents changed -> every cached answer is now stale
+    print(f"Done. {total} chunks stored. Corpus version is now {v}.")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,7 @@
 from qdrant_client import QdrantClient, models
 
 import config
+import corpus
 
 client = QdrantClient(url=config.QDRANT_URL)
 
@@ -23,10 +24,11 @@ def get_document_tenant(doc_id):
 
 
 def set_document_acl(doc_id, allowed_roles, allowed_users):
-    """Updates EVERY chunk of the document. Takes effect on the very next query."""
+    """Updates EVERY chunk of the document, then invalidates all cached answers."""
     client.set_payload(
         collection_name=config.COLLECTION,
         payload={"allowed_roles": allowed_roles, "allowed_users": allowed_users},
         points=_doc_filter(doc_id),
         wait=True,
     )
+    corpus.bump_version()

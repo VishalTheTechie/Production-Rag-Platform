@@ -29,3 +29,12 @@ JWT_SECRET = os.getenv("JWT_SECRET", "dev-only-secret-change-me-0123456789abcdef
 JWT_EXPIRE_MINUTES = int(os.getenv("JWT_EXPIRE_MINUTES", "60"))
 DEMO_PASSWORD = os.getenv("DEMO_PASSWORD", "demo123")
 AUDIT_DB = os.getenv("AUDIT_DB", "audit.db")
+
+CACHE_COLLECTION = os.getenv("CACHE_COLLECTION", "cache")
+CACHE_THRESHOLD = float(os.getenv("CACHE_THRESHOLD", "0.92"))
+CACHE_TTL_SECONDS = int(os.getenv("CACHE_TTL_SECONDS", str(24 * 3600)))
+METRICS_DB = os.getenv("METRICS_DB", "metrics.db")
+ROUTER_MODE = os.getenv("ROUTER_MODE", "rules")
+FLAT_GAP = float(os.getenv("FLAT_GAP", "0.10"))
+PRICES = {"openai/gpt-oss-120b": (0.15, 0.60), "openai/gpt-oss-20b": (0.075, 0.30)}
+DEFAULT_PRICE = (0.15, 0.60)
