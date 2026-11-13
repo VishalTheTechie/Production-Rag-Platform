@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+qdrant-client
+sentence-transformers
+google-genai
+groq
+python-dotenv
+pandas
+pydantic
+pyjwt
+pytest

@@ -1,0 +1,24 @@
+name: tests
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      JWT_SECRET: ci-only-secret-0123456789-0123456789-0123456789
+      QDRANT_URL: http://localhost:6333
+    services:
+      qdrant:
+        image: qdrant/qdrant
+        ports:
+          - 6333:6333
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Wait for Qdrant
+        run: until curl -sf http://localhost:6333/readyz; do sleep 2; done
+      - run: python ingest.py
+      - run: pytest -v

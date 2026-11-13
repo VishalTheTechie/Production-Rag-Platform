@@ -1,0 +1,380 @@
+[
+  {
+    "question": "Who serves as the VP of People Operations at Acme Corp?",
+    "reference_answer": "Sarah Jenkins",
+    "doc_id": "acme_corp__handbook",
+    "tenant_id": "acme_corp",
+    "classification": "public"
+  },
+  {
+    "question": "How many fixed company holidays does Acme Corp recognize each year?",
+    "reference_answer": "10 fixed holidays",
+    "doc_id": "acme_corp__handbook",
+    "tenant_id": "acme_corp",
+    "classification": "public"
+  },
+  {
+    "question": "What is the monthly remote workspace allowance provided to active full-time employees at Acme Corp?",
+    "reference_answer": "$75 per month",
+    "doc_id": "acme_corp__handbook",
+    "tenant_id": "acme_corp",
+    "classification": "public"
+  },
+  {
+    "question": "What discount does Acme Corp offer on annual subscriptions across all tiers?",
+    "reference_answer": "An automatic 15% discount.",
+    "doc_id": "acme_corp__product_faq",
+    "tenant_id": "acme_corp",
+    "classification": "public"
+  },
+  {
+    "question": "Who supervises the customer support team at Acme Corp?",
+    "reference_answer": "Sarah Jenkins, Support Operations Manager.",
+    "doc_id": "acme_corp__product_faq",
+    "tenant_id": "acme_corp",
+    "classification": "public"
+  },
+  {
+    "question": "What is the money-back guarantee timeframe offered by Acme Corp for initial subscription purchases?",
+    "reference_answer": "30 days.",
+    "doc_id": "acme_corp__product_faq",
+    "tenant_id": "acme_corp",
+    "classification": "public"
+  },
+  {
+    "question": "Who is the Policy Owner and Chief Information Security Officer (CISO) for Acme Corp's Information Security Policy?",
+    "reference_answer": "Marcus Vance",
+    "doc_id": "acme_corp__it_policy",
+    "tenant_id": "acme_corp",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the minimum password length required by Acme Corp's password and authentication standards?",
+    "reference_answer": "14 characters",
+    "doc_id": "acme_corp__it_policy",
+    "tenant_id": "acme_corp",
+    "classification": "internal"
+  },
+  {
+    "question": "Within what time frame must any security incident or anomaly be reported according to Acme Corp's policy?",
+    "reference_answer": "Within 15 minutes of discovery",
+    "doc_id": "acme_corp__it_policy",
+    "tenant_id": "acme_corp",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the target mitigation SLA for a SEV-1 incident according to ACME Corp's engineering runbook?",
+    "reference_answer": "45 Minutes",
+    "doc_id": "acme_corp__runbook",
+    "tenant_id": "acme_corp",
+    "classification": "internal"
+  },
+  {
+    "question": "Who is listed as the Level 3 Engineering Director escalation contact in ACME Corp's incident hierarchy?",
+    "reference_answer": "Sarah Chen",
+    "doc_id": "acme_corp__runbook",
+    "tenant_id": "acme_corp",
+    "classification": "internal"
+  },
+  {
+    "question": "At what day and time does the weekly on-call shift handover occur at ACME Corp?",
+    "reference_answer": "Every Tuesday at 10:00 AM EST",
+    "doc_id": "acme_corp__runbook",
+    "tenant_id": "acme_corp",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the target annual bonus percentage for an L4 level employee at Acme Corp?",
+    "reference_answer": "18%",
+    "doc_id": "acme_corp__salary_bands",
+    "tenant_id": "acme_corp",
+    "classification": "confidential"
+  },
+  {
+    "question": "On what date will the approved FY2024 bonuses be paid out to eligible employees at Acme Corp?",
+    "reference_answer": "Friday, March 14, 2025",
+    "doc_id": "acme_corp__salary_bands",
+    "tenant_id": "acme_corp",
+    "classification": "confidential"
+  },
+  {
+    "question": "Who authored the FY2024 compensation bands and bonus structure document for Acme Corp?",
+    "reference_answer": "Sarah Jenkins, Vice President of Human Resources",
+    "doc_id": "acme_corp__salary_bands",
+    "tenant_id": "acme_corp",
+    "classification": "confidential"
+  },
+  {
+    "question": "What was Acme Corp's actual revenue for Q3 2024?",
+    "reference_answer": "$24.8 million",
+    "doc_id": "acme_corp__board_notes",
+    "tenant_id": "acme_corp",
+    "classification": "confidential"
+  },
+  {
+    "question": "What was the total purchase price valuation for Acme Corp's acquisition of TaskFlow Inc.?",
+    "reference_answer": "$18.5 million",
+    "doc_id": "acme_corp__board_notes",
+    "tenant_id": "acme_corp",
+    "classification": "confidential"
+  },
+  {
+    "question": "How many employees does Acme Corp plan to lay off under the Project Velocity restructuring plan?",
+    "reference_answer": "65 employees (12% of total workforce)",
+    "doc_id": "acme_corp__board_notes",
+    "tenant_id": "acme_corp",
+    "classification": "confidential"
+  },
+  {
+    "question": "What color scrubs are clinical personnel required to wear according to the Globex Health employee handbook?",
+    "reference_answer": "Navy Blue",
+    "doc_id": "globex_health__handbook",
+    "tenant_id": "globex_health",
+    "classification": "public"
+  },
+  {
+    "question": "How many unused PTO hours is a Globex Health employee permitted to roll over into the next calendar year?",
+    "reference_answer": "A maximum of 40 hours",
+    "doc_id": "globex_health__handbook",
+    "tenant_id": "globex_health",
+    "classification": "public"
+  },
+  {
+    "question": "Who serves as the Lead Occupational Health Officer directing random drug screenings at Globex Health?",
+    "reference_answer": "Dr. Robert Chen",
+    "doc_id": "globex_health__handbook",
+    "tenant_id": "globex_health",
+    "classification": "public"
+  },
+  {
+    "question": "What is the fee charged by Globex Health for cancelling an outpatient appointment with less than 24 hours' notice?",
+    "reference_answer": "$45",
+    "doc_id": "globex_health__product_faq",
+    "tenant_id": "globex_health",
+    "classification": "public"
+  },
+  {
+    "question": "How many business days does Globex Health take to process requests for official paper copies of medical records?",
+    "reference_answer": "5 to 7 business days",
+    "doc_id": "globex_health__product_faq",
+    "tenant_id": "globex_health",
+    "classification": "public"
+  },
+  {
+    "question": "What percentage prompt-pay discount does Globex Health offer if a bill is paid in full within 10 calendar days of issuance?",
+    "reference_answer": "15%",
+    "doc_id": "globex_health__product_faq",
+    "tenant_id": "globex_health",
+    "classification": "public"
+  },
+  {
+    "question": "What is the minimum required password length according to the Globex Health cybersecurity policy?",
+    "reference_answer": "16 characters",
+    "doc_id": "globex_health__it_policy",
+    "tenant_id": "globex_health",
+    "classification": "internal"
+  },
+  {
+    "question": "How many minutes of inactivity will trigger a screen auto-lock on clinical workstations at Globex Health?",
+    "reference_answer": "3 minutes",
+    "doc_id": "globex_health__it_policy",
+    "tenant_id": "globex_health",
+    "classification": "internal"
+  },
+  {
+    "question": "Within what timeframe must a Tier 3 Critical incident be reported under Globex Health protocol?",
+    "reference_answer": "Within 15 minutes of discovery",
+    "doc_id": "globex_health__it_policy",
+    "tenant_id": "globex_health",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the maximum acceptable downtime for the Tier 1 PulseEHR system at Globex Health?",
+    "reference_answer": "15 minutes",
+    "doc_id": "globex_health__runbook",
+    "tenant_id": "globex_health",
+    "classification": "internal"
+  },
+  {
+    "question": "Who serves as the Secondary SRE Lead in Globex Health's on-call escalation matrix?",
+    "reference_answer": "Elena Rostova",
+    "doc_id": "globex_health__runbook",
+    "tenant_id": "globex_health",
+    "classification": "internal"
+  },
+  {
+    "question": "Within how many hours must a formal Post-Mortem Report be created following a P1 or P2 incident at Globex Health?",
+    "reference_answer": "48 hours",
+    "doc_id": "globex_health__runbook",
+    "tenant_id": "globex_health",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the Annual Incentive Plan (AIP) target percentage for Level L30 staff at Globex Health System?",
+    "reference_answer": "5.0%",
+    "doc_id": "globex_health__salary_bands",
+    "tenant_id": "globex_health",
+    "classification": "confidential"
+  },
+  {
+    "question": "What is the one-time retention bonus amount offered to eligible L30 RNs in the ICU or ER at Globex Health System?",
+    "reference_answer": "$6,500",
+    "doc_id": "globex_health__salary_bands",
+    "tenant_id": "globex_health",
+    "classification": "confidential"
+  },
+  {
+    "question": "What is the night shift differential rate for L20 and L30 staff at Globex Health System?",
+    "reference_answer": "$4.75/hour",
+    "doc_id": "globex_health__salary_bands",
+    "tenant_id": "globex_health",
+    "classification": "confidential"
+  },
+  {
+    "question": "What was the consolidated revenue reported by Globex Health for Q3 2024?",
+    "reference_answer": "$412.5 million",
+    "doc_id": "globex_health__board_notes",
+    "tenant_id": "globex_health",
+    "classification": "confidential"
+  },
+  {
+    "question": "What is the agreed total enterprise value for Globex Health's planned acquisition of Meridian Surgical Centers LLC?",
+    "reference_answer": "$87.5 million",
+    "doc_id": "globex_health__board_notes",
+    "tenant_id": "globex_health",
+    "classification": "confidential"
+  },
+  {
+    "question": "How many Full-Time Equivalents (FTEs) does Globex Health plan to eliminate under Project Efficiency?",
+    "reference_answer": "380 FTEs",
+    "doc_id": "globex_health__board_notes",
+    "tenant_id": "globex_health",
+    "classification": "confidential"
+  },
+  {
+    "question": "How many unused PTO days can an employee at Initech Labs carry over into the next calendar year?",
+    "reference_answer": "A maximum of 5 days",
+    "doc_id": "initech_labs__handbook",
+    "tenant_id": "initech_labs",
+    "classification": "public"
+  },
+  {
+    "question": "What is the amount of the one-time work-from-home stipend provided to remote employees at Initech Labs?",
+    "reference_answer": "$600",
+    "doc_id": "initech_labs__handbook",
+    "tenant_id": "initech_labs",
+    "classification": "public"
+  },
+  {
+    "question": "Within how many hours does the Ethics Committee at Initech Labs review all submission logs?",
+    "reference_answer": "48 hours",
+    "doc_id": "initech_labs__handbook",
+    "tenant_id": "initech_labs",
+    "classification": "public"
+  },
+  {
+    "question": "When was Initech Labs founded?",
+    "reference_answer": "March 14, 2022",
+    "doc_id": "initech_labs__product_faq",
+    "tenant_id": "initech_labs",
+    "classification": "public"
+  },
+  {
+    "question": "How long does standard sample processing take once a sample arrives at the Initech Labs laboratory?",
+    "reference_answer": "14 business days",
+    "doc_id": "initech_labs__product_faq",
+    "tenant_id": "initech_labs",
+    "classification": "public"
+  },
+  {
+    "question": "What encryption standard does Initech Labs use to protect stored data?",
+    "reference_answer": "AES-256 encryption",
+    "doc_id": "initech_labs__product_faq",
+    "tenant_id": "initech_labs",
+    "classification": "public"
+  },
+  {
+    "question": "What is the minimum required password length for standard corporate accounts at Initech Labs?",
+    "reference_answer": "16 characters",
+    "doc_id": "initech_labs__it_policy",
+    "tenant_id": "initech_labs",
+    "classification": "internal"
+  },
+  {
+    "question": "Within how many minutes of discovery must security incidents be reported at Initech Labs?",
+    "reference_answer": "Within 15 minutes",
+    "doc_id": "initech_labs__it_policy",
+    "tenant_id": "initech_labs",
+    "classification": "internal"
+  },
+  {
+    "question": "Who must grant written approval for USB override exceptions at Initech Labs?",
+    "reference_answer": "Lead Security Engineer Elena Rostova",
+    "doc_id": "initech_labs__it_policy",
+    "tenant_id": "initech_labs",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the target acknowledgment time for a P1 Critical incident at Initech Labs?",
+    "reference_answer": "5 minutes",
+    "doc_id": "initech_labs__runbook",
+    "tenant_id": "initech_labs",
+    "classification": "internal"
+  },
+  {
+    "question": "Who must approve on-call shift trades for engineers at Initech Labs?",
+    "reference_answer": "Dr. Elena Rostova",
+    "doc_id": "initech_labs__runbook",
+    "tenant_id": "initech_labs",
+    "classification": "internal"
+  },
+  {
+    "question": "What is the weekly flat stipend provided to the primary on-call engineer at Initech Labs?",
+    "reference_answer": "$350",
+    "doc_id": "initech_labs__runbook",
+    "tenant_id": "initech_labs",
+    "classification": "internal"
+  },
+  {
+    "question": "Who authored the Fiscal Year 2025 total compensation structure document for Initech Labs Inc.?",
+    "reference_answer": "Elena Rostova, Vice President of Human Resources",
+    "doc_id": "initech_labs__salary_bands",
+    "tenant_id": "initech_labs",
+    "classification": "confidential"
+  },
+  {
+    "question": "What is the target bonus percentage for Level 4 (L4) employees under the Initech Labs Inc. Annual Incentive Plan?",
+    "reference_answer": "20% of base salary",
+    "doc_id": "initech_labs__salary_bands",
+    "tenant_id": "initech_labs",
+    "classification": "confidential"
+  },
+  {
+    "question": "On what date will annual bonuses for Fiscal Year 2025 be distributed to eligible employees at Initech Labs Inc.?",
+    "reference_answer": "March 15, 2026",
+    "doc_id": "initech_labs__salary_bands",
+    "tenant_id": "initech_labs",
+    "classification": "confidential"
+  },
+  {
+    "question": "Who serves as the Chief Executive Officer of Initech Labs Inc.?",
+    "reference_answer": "Dr. Evelyn Vance",
+    "doc_id": "initech_labs__board_notes",
+    "tenant_id": "initech_labs",
+    "classification": "confidential"
+  },
+  {
+    "question": "What was the Q3 2024 revenue reported by Initech Labs Inc.?",
+    "reference_answer": "$4.2 million",
+    "doc_id": "initech_labs__board_notes",
+    "tenant_id": "initech_labs",
+    "classification": "confidential"
+  },
+  {
+    "question": "How many full-time employees will be impacted by the Project Streamline workforce reduction at Initech Labs Inc.?",
+    "reference_answer": "35 full-time employees",
+    "doc_id": "initech_labs__board_notes",
+    "tenant_id": "initech_labs",
+    "classification": "confidential"
+  }
+]

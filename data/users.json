@@ -1,0 +1,86 @@
+[
+  {
+    "user_id": "acme_corp_employee",
+    "tenant_id": "acme_corp",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "acme_corp_manager",
+    "tenant_id": "acme_corp",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "acme_corp_hr",
+    "tenant_id": "acme_corp",
+    "roles": [
+      "hr"
+    ]
+  },
+  {
+    "user_id": "acme_corp_admin",
+    "tenant_id": "acme_corp",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "user_id": "globex_health_employee",
+    "tenant_id": "globex_health",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "globex_health_manager",
+    "tenant_id": "globex_health",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "globex_health_hr",
+    "tenant_id": "globex_health",
+    "roles": [
+      "hr"
+    ]
+  },
+  {
+    "user_id": "globex_health_admin",
+    "tenant_id": "globex_health",
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "user_id": "initech_labs_employee",
+    "tenant_id": "initech_labs",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "initech_labs_manager",
+    "tenant_id": "initech_labs",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "user_id": "initech_labs_hr",
+    "tenant_id": "initech_labs",
+    "roles": [
+      "hr"
+    ]
+  },
+  {
+    "user_id": "initech_labs_admin",
+    "tenant_id": "initech_labs",
+    "roles": [
+      "admin"
+    ]
+  }
+]

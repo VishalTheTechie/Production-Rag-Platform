@@ -1,0 +1,5 @@
+Users x adversarial queries checked: 240
+Cross-tenant / forbidden leaks: 0
+Median search without filter: 8.8 ms
+Median search with ACL filter: 8.9 ms
+Filtering overhead (median): 0.1 ms
