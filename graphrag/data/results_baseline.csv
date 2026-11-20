@@ -1,0 +1,91 @@
+id,type,question,gold,pred,em,f1,support_recall,all_support_found,latency_s,input_tokens,output_tokens,cost_usd
+5a7344e95542991f9a20c6ce,bridge,What song was number 4 on the charts when a song from FutureSex/LoveSounds was number 1?,Rudebox,unknown,0.0,0.0,0.5,0.0,1.14,1272,181,0.00029939999999999996
+5ae3789b5542992e3233c412,bridge,Riom Trial was headed by the French general who reached what distinction?,Marshal of France,unknown,0.0,0.0,0.5,0.0,0.86,760,118,0.00018480000000000002
+5ac3a0db554299391541383a,bridge,Phyllis Kohn holds a seat in the House of Representatives which meets where?,Saint Paul,Saint Paul,1.0,1.0,1.0,1.0,0.74,673,110,0.00016695
+5ac270e05542992f1f2b38c9,bridge,"What is the highest peak in the mountain range in which Elk Valley, Tennessee is located in?",High Knob,High Knob,1.0,1.0,1.0,1.0,1.03,798,77,0.00016589999999999997
+5a8769475542993e715abf2b,bridge,The Old Ones are more powerful than which of the mightiest Gods?,mightiest Gods in Palladium,the most powerful Gods of the Palladium Megaverse,0.0,0.4,1.0,1.0,0.67,800,201,0.0002406
+5a7efa7a55429930675135ea,bridge,How did the prominent member of the Astor family who was a lieutenant colonel in the Spanish-American War die?,"perished on the RMS ""Titanic""",unknown,0.0,0.0,1.0,1.0,0.89,766,159,0.0002103
+5a7cba005542990527d55516,bridge,"What is the year of the event that occured first, Skeeter stopped teaching at his alma mater,or Emmett Kelly died?",1979,1979,1.0,1.0,1.0,1.0,0.91,580,208,0.0002118
+5a81ee385542995ce29dcc88,bridge,Lt Col. Stewart Francis Newcombe was a British army officer and associate of a military officerthat was given what title?,Lawrence of Arabia,unknown,0.0,0.0,0.5,0.0,1.06,648,340,0.0003012
+5ae7954b554299540e5a5620,bridge,Who manufactured the scooter upon which the Bajaj Priya was based off of?,Piaggio,Piaggio,1.0,1.0,1.0,1.0,0.78,663,111,0.00016605000000000002
+5abe3f3455429976d4830aa8,bridge,"What company started the urban complex development that included the highrise building, The Harmon?",MGM Resorts International,MGM Resorts International,1.0,1.0,1.0,1.0,0.78,742,124,0.0001857
+5a84a7f95542992a431d1a85,bridge,"Who was the wife of the United States Army lieutenant general who received the Distinguished Service Cross, and was the first of his West Point class to be promoted to brigadier general, major general, and lieutenant general",Julia Compton Moore,Julia Compton Moore,1.0,1.0,1.0,1.0,0.27,790,39,0.0001419
+5a888d535542997e5c09a617,bridge,In what county is The Third Fitzwilliam Meetinghouse located?,"Cheshire County, New Hampshire",Cheshire County,0.0,0.6667,1.0,1.0,0.82,873,60,0.00016695
+5ab808b85542991d3222380d,bridge,Umi-a-Liloa inherited authority of a kind which is a belief in what?,belief in many deities and spirits,deities and spirits,0.0,0.6667,1.0,1.0,0.92,707,210,0.00023205
+5a7571095542992d0ec05f97,bridge,"Which ""Mirrors"" actress made her film debut in the 2005 comedy film ""Hitch""?",Paula Maxine Patton,Paula Patton,0.0,0.8,0.5,0.0,0.85,610,181,0.00020009999999999998
+5adc93a4554299438c868e01,bridge,"After whom was the area, where  The Phillips Collection is located, named ?",Samuel Francis Du Pont.,unknown,0.0,0.0,0.5,0.0,0.89,694,117,0.0001743
+5a775bd65542993569682d6b,bridge,What classmate of Tony Hendra is the Director of Research at the Centre for Theoretical Cosmology within the University of Cambridge?,Stephen Hawking,Stephen Hawking,1.0,1.0,1.0,1.0,0.79,627,106,0.00015764999999999998
+5abde0655542991f6610608b,bridge,"When was the movie released that starred an American male actor born on February 28, 1923 and was written by Christopher Knopf?","December 23, 1977",unknown,0.0,0.0,0.5,0.0,0.76,622,110,0.00015930000000000002
+5a8ee4315542990e94052ba7,bridge,What officially ended the first phase of the military conflict between the British Raj and the Emirate of Afghanistan from 1878 to 1880?,Treaty of Gandamak,Treaty of Gandamak,1.0,1.0,1.0,1.0,0.78,768,85,0.0001662
+5ae644c55542992663a4f27e,bridge,"When was the club formed, for which Adam  Johnson played as well as Middlesbrough and Watford ?",1919,1919,1.0,1.0,1.0,1.0,0.64,699,76,0.00015045
+5a7306a655429901807daf67,bridge,Who is prime minister of this West African country that covers 36125km2?,Umaro Mokhtar Sissoco Embaló,Umaro Sissoco Embaló,0.0,0.8571,1.0,1.0,0.89,725,125,0.00018375
+5a8b84875542995d1e6f13d7,bridge,"Which cast member of Pitch Perfect 2 was born March 9, 1986?",Brittany Snow,unknown,0.0,0.0,0.0,0.0,0.74,635,161,0.00019185
+5abbf519554299114383a0ad,bridge,"What other occupation did the ""Law West of the Pecos"" have?",saloon-keeper,saloon‑keeper,0.0,0.0,0.5,0.0,0.75,708,99,0.0001656
+5ab2a186554299295394677b,bridge,"When did the English local newspaper, featuring the sculpture and war memorial in the Forbury gardens, change names?",2009,2009,1.0,1.0,1.0,1.0,0.89,903,124,0.00020984999999999998
+5a83d42d5542992ef85e2375,bridge,"In which county was the English rock band formed that released the box set of four studio albums ""Genesis 1983–1998""?",Surrey,Surrey,1.0,1.0,1.0,1.0,0.74,1182,84,0.00022769999999999998
+5abbe4c0554299642a094bc0,bridge,Rolls-Royce Welland's name is taken from this river that is low long,65 mi,River Welland,0.0,0.0,1.0,1.0,0.85,740,127,0.0001872
+5ac29cf8554299218029dac2,bridge,"Who is the American actress performed ""Take On The World"" with Sabrina Carpenter?",Rowan Blanchard,Rowan Blanchard,1.0,1.0,1.0,1.0,0.78,876,86,0.000183
+5a79eef75542996c55b2dca6,bridge,Hotel Splendide is a British film from 2000 that features which James Bond actor?,Daniel Craig,Daniel Craig,1.0,1.0,1.0,1.0,0.82,871,81,0.00017925
+5a8911ad554299515336129c,bridge,"Nuestra Belleza México 2010 was crowned by the winner of what other 2010 pageant, the winner of which was crowned on 23 August 2010?",Miss Universe 2010,Miss Universe 2010,1.0,1.0,1.0,1.0,0.91,1023,203,0.00027525
+5ac0c84a554299012d1db633,bridge,One of Fingerprint File's key ingredients is the highly jazz/funk-oriented bass guitar played by a musician born in which year ?,1949,1949,1.0,1.0,1.0,1.0,0.65,723,71,0.00015105
+5a77253455429972597f1449,bridge,"Who is older, Ivan Foster or Ian Paisley?",Ian Paisley,Ian Paisley,1.0,1.0,1.0,1.0,0.58,543,50,0.00011145
+5ae0575755429945ae95931f,bridge,The 1958 Pro Bowl was played at the California stadium that is the home for which college?,University of Southern California,University of Southern California,1.0,1.0,1.0,1.0,0.96,788,106,0.00018179999999999997
+5a8ac87d55429970aeb7031d,bridge,What brother of Stanley Alan Van Gundy is a color commentator for ESPN?,Jeffrey William Van Gundy,Jeff Van Gundy,0.0,0.5714,1.0,1.0,0.84,629,80,0.00014235
+5ae67def5542991bbc9760f3,bridge,Kenneth L. Gile is the Chief Operating Officer of an airline with its head office in what airport?,Dubai International Airport,Dubai International Airport,1.0,1.0,1.0,1.0,0.72,595,82,0.00013844999999999998
+5ab8ae585542991b5579efd8,bridge,"In which year was the choreographer for ""Best Foot Forward"" born?",1912,1912,1.0,1.0,1.0,1.0,0.7,628,80,0.0001422
+5a7351785542994cef4bc539,bridge,Was Atom Egoyans biggest commercial success on stage or on film?,erotic thriller film,film,0.0,0.5,0.5,0.0,1.18,916,315,0.00032639999999999996
+5ae75eb15542995703ce8bf8,bridge,Which former college football quarterback is the nephew Wade Watts?,"Julius Caesar ""J. C."" Watts Jr.",J. C. Watts,0.0,0.6667,1.0,1.0,1.01,690,188,0.0002163
+5ab2b5a0554299295394683c,bridge,What are the symptoms of the virus identified by Robert Purcell?,"nausea, vomiting, diarrhea, jaundice, fever, and abdominal pain",unknown,0.0,0.0,0.5,0.0,0.48,643,85,0.00014744999999999998
+5a8bd49d5542997f31a41dd7,bridge,"Who is this American cartoonist, writer, producer, animator, and voice actor that worked with this multiple Shuster Award, Harvey Award and Eisner Award nominee and an Eisner Award–winning comic book creator?",Matt Groening,unknown,0.0,0.0,0.5,0.0,1.68,653,284,0.00026835000000000004
+5ab3acc5554299233954ff7e,bridge,"Helen Margaret Lederer appeared on a BBC television sitcom created by Jennifer Saunders, that is based on what 1990 sketch?",French & Saunders,Jam & Jerusalem,0.0,0.0,0.5,0.0,1.12,827,268,0.00028484999999999996
+5a90991d5542990a9849366b,bridge,In which state is Stewart Nozette imprisoned?,Indiana,Indiana,1.0,1.0,0.5,0.0,0.57,656,54,0.00013079999999999998
+5a82ffef55429954d2e2ebf2,bridge,How many United States House of Representatives does Maine's congressional districts have?,2,2,1.0,1.0,1.0,1.0,0.7,557,79,0.00013094999999999998
+5ab72c7d55429928e1fe3830,bridge,What was fort orange's initial name?,Dutch House of Orange-Nassau,Fort Nassau,0.0,0.0,1.0,1.0,1.79,819,379,0.00035025
+5a84ed765542994c784dda8b,bridge,"What type of word play does ""What Are Little Girls Made Of?"" and ""What Are Little Boys Made Of?"" have in common?",rhyme,unknown,0.0,0.0,1.0,1.0,0.62,809,105,0.00018434999999999998
+5ab27389554299722f9b4d2f,bridge,"What is the name of the black belt in Brizilian Jiu Jitsu who trains extensively under striking coach Ray Bronx Longo in Garden City, New York?",Peter 'Drago' Sell,Pete Sell,0.0,0.4,0.5,0.0,0.79,797,154,0.00021195
+5a8b46925542995d1e6f133c,bridge,When was the singer of Miss Emily's Picture born?,"August 11, 1946",unknown,0.0,0.0,0.5,0.0,0.55,568,89,0.00013859999999999998
+5ab487f55542990594ba9c4f,bridge,The 2015 Cotton Bowl was played at the stadium that was the home of which NFL team?,Dallas Cowboys,Dallas Cowboys,1.0,1.0,1.0,1.0,0.6,770,52,0.0001467
+5adebc9b554299728e26c79d,bridge,Agnes Body was the founding head of a state secondary school located on what road?,Wragby Road,Wragby Road,1.0,1.0,1.0,1.0,0.56,525,146,0.00016635
+5a74670855429929fddd840d,bridge,Which CNN journalist and two-time Pulitzer winner inspired the Half the Sky Movement?,Nicholas Kristof,Nicholas Kristof,1.0,1.0,1.0,1.0,0.59,854,103,0.00018989999999999998
+5a7e02b75542997cc2c474f3,bridge,What year was the actor that co-starred with Sidney Poitier in Lieel Nikita born?,1970,unknown,0.0,0.0,0.5,0.0,0.76,622,129,0.0001707
+5a8e68b15542995085b3742d,bridge,"When was the earliest known pottery created in the country which was the native land of Admiral Yi Sun-sin, who conducted the Battle of Happo? ",around 8000 BC,unknown,0.0,0.0,0.5,0.0,0.75,905,82,0.00018495
+5abbd3b4554299642a094b4f,bridge,What sort of dog did the same man who cared for the living gift that Martin Bormann gave Hitler have?,dachshund,dachshund,1.0,1.0,1.0,1.0,1.29,498,133,0.0001545
+5ade78e255429939a52fe8d0,bridge,What series was Emily Bergl in that is set in Chicago?,Shameless,Shameless,1.0,1.0,0.5,0.0,0.75,747,161,0.00020864999999999998
+5abcf5ec55429959677d6b76,bridge,Clone of clones played alongside a band from where? ,"Cleveland, Ohio","Cleveland, Ohio",1.0,1.0,1.0,1.0,0.97,756,197,0.00023159999999999996
+5abfad3c5542990832d3a197,bridge,what was the American computer-animated fantasy film which  Aron Warner produced based on ,William Steig's 1990 fairy tale,Shrek,0.0,0.0,1.0,1.0,0.75,838,206,0.0002493
+5ab997ad554299131ca4238c,bridge,Lakshmi Shankar is the mother-in-law of an acclaimed Indian violinist who was noted for what?,Hindustani classical vocalist,virtuoso playing techniques and orchestral fusion compositions,0.0,0.0,1.0,1.0,1.23,585,285,0.00025875
+5a7732dc55429972597f149b,bridge,What 1944 Bollywood film was the mother of Bollywood actor Govinda in?,Geet or The Song,unknown,0.0,0.0,0.5,0.0,0.91,717,141,0.00019214999999999998
+5a7294b65542991f9a20c509,bridge,What is the name of the umcoming horror film adaptation starring Melanie Griffiths daughter?,Suspiria,Suspiria,1.0,1.0,1.0,1.0,0.83,575,131,0.00016485
+5a88a6975542994846c1cea4,bridge,"What was the nickname of Anthony Corallo, boss to ""Sal"" Avellino and head of the Lucchese mob family mob in New York?",Tony Ducks,Tony Ducks,1.0,1.0,1.0,1.0,0.74,661,87,0.00015135
+5abbc3a955429931dba144f9,bridge,Where is the first major improved highway located?,"Wheeling, West Virginia",United States,0.0,0.0,0.5,0.0,0.91,850,105,0.0001905
+5adc861c5542994d58a2f62c,bridge,What is the main base for the parent company of LATAM Express?,Comodoro Arturo Merino Benítez International Airport,Comodoro Arturo Merino Benítez International Airport,1.0,1.0,1.0,1.0,0.72,571,93,0.00014145
+single_000,single_hop,Who was the Emir of Afghanistan during the Second Anglo‑Afghan War?,Sher Ali Khan,Sher Ali Khan,1.0,1.0,1.0,1.0,0.88,606,85,0.00014189999999999998
+single_001,single_hop,What is the length of the River Welland?,65 mi,65 mi,1.0,1.0,1.0,1.0,0.53,755,51,0.00014385
+single_002,single_hop,What was the other name for the National Road?,Cumberland Road,Cumberland Road,1.0,1.0,1.0,1.0,0.77,833,68,0.00016575
+single_003,single_hop,What virus did Robert H. Purcell co-identify in 1973?,Hepatitis A virus,Hepatitis A virus,1.0,1.0,1.0,1.0,0.62,644,59,0.000132
+single_004,single_hop,Which producer worked on Clones of Clones' debut EP?,Justin Long,Justin Long,1.0,1.0,1.0,1.0,0.87,927,77,0.00018524999999999998
+single_005,single_hop,What political party did J. C. Watts represent in the U.S. House of Representatives?,Republican,Republican,1.0,1.0,1.0,1.0,0.76,910,53,0.0001683
+single_006,single_hop,What character did Rowan Blanchard play on Girl Meets World?,Riley Matthews,Riley Matthews,1.0,1.0,1.0,1.0,0.55,750,50,0.0001425
+single_007,single_hop,When was the Maiwand Lion erected?,1884,1884,1.0,1.0,1.0,1.0,0.73,741,49,0.00014054999999999997
+single_008,single_hop,When was Phyllis Kahn born?,"March 23, 1937","March 23, 1937",1.0,1.0,1.0,1.0,0.51,559,57,0.00011804999999999998
+single_009,single_hop,Who is the director of Suspira (upcoming film)?,Luca Guadagnino,Luca Guadagnino,1.0,1.0,1.0,1.0,0.7,880,84,0.00018240000000000002
+single_010,single_hop,When was Dakota Johnson born?,"October 4, 1989","October 4, 1989",1.0,1.0,1.0,1.0,0.46,685,75,0.00014775
+single_011,single_hop,In which town is most of Garden City located?,Town of Hempstead,Hempstead,0.0,0.5,1.0,1.0,0.49,644,64,0.000135
+single_012,single_hop,"How many delegates were at stake in the Maine Democratic Presidential Caucuses, 2008?",24 delegates,24,0.0,0.6667,1.0,1.0,1.08,892,55,0.0001668
+single_013,single_hop,What was Paula Patton's film debut?,Hitch,Hitch,1.0,1.0,1.0,1.0,0.8,733,72,0.00015315
+single_014,single_hop,What clown figure did Emmett Kelly create?,Weary Willie,Weary Willie,1.0,1.0,1.0,1.0,1.18,763,69,0.00015585
+single_015,single_hop,In which league does Leeds United Football Club play?,the Championship,Championship,1.0,1.0,1.0,1.0,0.73,671,48,0.00012944999999999998
+single_016,single_hop,Which comic series has Ian Boothby written the most?,Simpsons Comics,Simpsons Comics,1.0,1.0,1.0,1.0,0.49,841,73,0.00016994999999999998
+single_017,single_hop,"What was Antonio ""Tony Ducks"" Corallo's role in the Lucchese crime family?",boss,boss,1.0,1.0,1.0,1.0,0.56,526,105,0.00014189999999999998
+single_018,single_hop,What type of religion is Hawaiian religion?,Polytheistic and animistic,polytheistic and animistic,1.0,1.0,1.0,1.0,1.0,803,87,0.00017264999999999997
+single_019,single_hop,How many members does the Minnesota House of Representatives have?,134 members,134,0.0,0.6667,1.0,1.0,0.8,667,38,0.00012285
+single_020,single_hop,What is Nirmala Devi's relation to Govinda?,Mother,mother,1.0,1.0,1.0,1.0,0.78,628,69,0.0001356
+single_021,single_hop,How many destinations does Flydubai operate between?,95 destinations,95,0.0,0.6667,1.0,1.0,0.58,544,67,0.00012179999999999998
+single_022,single_hop,What are Alien Intelligences composed of?,"spirit, magical energy, flesh","spirit, magical energy, and physical flesh",0.0,0.8,1.0,1.0,1.13,773,112,0.00018314999999999998
+single_023,single_hop,When did the Battle of Happo take place?,"May 7, 1592","May 7, 1592",1.0,1.0,1.0,1.0,0.9,838,90,0.00017969999999999998
+single_024,single_hop,What is the area of Guinea-Bissau?,36125 km2,36125 km²,0.0,0.5,1.0,1.0,0.67,635,78,0.00014205
+single_025,single_hop,What title did Ian Paisley hold?,Baron Bannside,Baron Bannside,1.0,1.0,1.0,1.0,0.79,540,89,0.00013440000000000001
+single_026,single_hop,When did Blondi die?,29 April 1945,29 April 1945,1.0,1.0,1.0,1.0,0.62,569,84,0.00013575
+single_027,single_hop,When was Tony Hendra born?,10 July 1941,10 July 1941,1.0,1.0,1.0,1.0,0.72,516,68,0.00011819999999999999
+single_028,single_hop,What was Agnes Body's profession?,British headmistress,headmistress,0.0,0.6667,1.0,1.0,0.68,664,79,0.000147
+single_029,single_hop,What role did Helen Lederer play in Absolutely Fabulous?,Catriona,Catriona,1.0,1.0,1.0,1.0,0.45,579,44,0.00011325

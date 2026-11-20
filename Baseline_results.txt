@@ -1,4 +1,0 @@
-Metric - Your result
-Retrieval hit rate - 0.963 - The right document was in the top 5 for 52 of 54 questions
-Answer correctness - 0.87 - The judge marked 47 of 54 answers correct
-Avg latency - 18.97s - Average time to produce one answer

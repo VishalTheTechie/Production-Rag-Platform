@@ -9,6 +9,7 @@ from qdrant_client import QdrantClient, models
 
 import config
 import corpus
+import verifier
 
 client = QdrantClient(url=config.QDRANT_URL)
 _personal = {}   # (user_id, corpus_version) -> has personal document grants?
@@ -67,7 +68,20 @@ def cacheable(answer: str, sources) -> bool:
     return bool(sources)
 
 
-def lookup(vec, scope):
+def critical_tokens(query: str) -> set:
+    """Tokens that contain a digit (L4, sev 1, q3, 2025, 15). If two questions disagree on
+    these, they are almost certainly different questions even when their wording is close."""
+    return set(re.findall(r"[a-z]*\d[a-z0-9]*", normalize(query)))
+
+
+def guard_ok(query_a: str, query_b: str) -> bool:
+    return critical_tokens(query_a) == critical_tokens(query_b)
+
+
+def lookup(vec, scope, query):
+    """Stage 1: vector similarity finds candidates.
+    Stage 2: a number guard and a duplicate-question verifier confirm the match.
+    Identical questions (after cleaning) skip stage 2."""
     ensure_collection()
     flt = models.Filter(must=[
         models.FieldCondition(key="scope", match=models.MatchValue(value=scope)),
@@ -75,10 +89,20 @@ def lookup(vec, scope):
         models.FieldCondition(key="created_at", range=models.Range(gte=time.time() - config.CACHE_TTL_SECONDS)),
     ])
     pts = client.query_points(
-        collection_name=config.CACHE_COLLECTION, query=vec, query_filter=flt, limit=1
+        collection_name=config.CACHE_COLLECTION, query=vec, query_filter=flt, limit=3
     ).points
-    if pts and pts[0].score >= config.CACHE_THRESHOLD:
-        return {"similarity": pts[0].score, **pts[0].payload}
+    for p in pts:                                   # best candidate first
+        if p.score < config.CACHE_THRESHOLD:
+            break
+        cached_query = p.payload.get("query", "")
+        if normalize(cached_query) != normalize(query):
+            if not guard_ok(query, cached_query):
+                continue
+            if getattr(config, "VERIFY_ENABLED", False):
+                score = verifier.same_question_score(query, cached_query)
+                if score < config.VERIFY_THRESHOLD:
+                    continue
+        return {"similarity": p.score, **p.payload}
     return None
 
 

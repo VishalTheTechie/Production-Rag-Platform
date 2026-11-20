@@ -2,6 +2,7 @@
 Traffic = N questions asked 3 ways: original, paraphrased, original again (shuffled).
 Usage: python run_compare.py [N]      (default N=30; resumes if it stops)"""
 import json
+import os
 import random
 import sys
 import time
@@ -14,6 +15,8 @@ import metrics
 import pipeline
 from llm import generate
 from run_eval import JUDGE
+
+PAUSE_S = float(os.getenv("COMPARE_PAUSE_S", "4"))   # gap between requests, to avoid free-tier throttling
 
 
 def build_workload(n):
@@ -44,7 +47,7 @@ def run(mode, workload):
         print(f"[{mode}] {i}/{len(workload)} cache_hit={res['cache_hit']} route={res['route']} "
               f"cost=${res['cost_usd']:.5f} {res['latency_ms'] / 1000:.1f}s "
               f"correct={verdict.startswith('CORRECT')}")
-        time.sleep(1)
+        time.sleep(PAUSE_S)
 
 
 def main():

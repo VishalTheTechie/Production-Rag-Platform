@@ -19,8 +19,8 @@ CHUNK_OVERLAP = 60
 TOP_K = 5
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-GROQ_LARGE="openai/gpt-oss-120b"
-GROQ_SMALL="openai/gpt-oss-20b"
+GROQ_LARGE = os.getenv("GROQ_LARGE", "openai/gpt-oss-120b")
+GROQ_SMALL = os.getenv("GROQ_SMALL", "openai/gpt-oss-20b")
 PROVIDERS = [p.strip() for p in os.getenv("PROVIDERS", "groq,gemini").split(",") if p.strip()]
 
 FALLBACK_MODELS = [m for m in os.getenv("FALLBACK_MODELS", "gemini-3.6-flash,gemini-3.7-flash,gemini-3.8-flash,gemini-3.5-flash,gemini-3.5-flash-lite").split(",") if m]
@@ -38,3 +38,7 @@ ROUTER_MODE = os.getenv("ROUTER_MODE", "rules")
 FLAT_GAP = float(os.getenv("FLAT_GAP", "0.10"))
 PRICES = {"openai/gpt-oss-120b": (0.15, 0.60), "openai/gpt-oss-20b": (0.075, 0.30)}
 DEFAULT_PRICE = (0.15, 0.60)
+
+VERIFY_ENABLED = os.getenv("VERIFY_ENABLED", "true").lower() == "true"
+VERIFY_MODEL = os.getenv("VERIFY_MODEL", "cross-encoder/quora-distilroberta-base")
+VERIFY_THRESHOLD = float(os.getenv("VERIFY_THRESHOLD", "0.80"))

@@ -23,6 +23,7 @@ def isolate(monkeypatch, tmp_path):
     monkeypatch.setattr(config, "AUDIT_DB", str(tmp_path / "audit.db"))
     monkeypatch.setattr(config, "METRICS_DB", str(tmp_path / "metrics.db"))
     monkeypatch.setattr(config, "CACHE_COLLECTION", "cache_test")
+    monkeypatch.setattr(config, "VERIFY_ENABLED", False, raising=False)
     monkeypatch.setattr(corpus, "VERSION_FILE", tmp_path / "corpus_version.txt")
     audit.init_db()
     metrics.init_db()

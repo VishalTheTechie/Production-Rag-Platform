@@ -6,7 +6,10 @@ google-genai
 groq
 python-dotenv
 pandas
+numpy
 pydantic
 pyjwt
 pytest
 streamlit
+neo4j
+datasets

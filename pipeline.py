@@ -36,11 +36,13 @@ def answer(user, query, request_id, mode="optimized", run_label="live"):
     start = time.perf_counter()
     tokens_in = tokens_out = 0
     cost = 0.0
+    waited_total = 0.0     # time spent waiting out free-tier rate limits (not model speed)
     models_used = []
     use_cache = mode == "optimized"
 
     def tally(r):
-        nonlocal tokens_in, tokens_out, cost
+        nonlocal tokens_in, tokens_out, cost, waited_total
+        waited_total += r.get("waited_s", 0.0)
         tokens_in += r["input_tokens"]
         tokens_out += r["output_tokens"]
         cost += metrics.cost_usd(r["model"], r["input_tokens"], r["output_tokens"])
@@ -51,11 +53,11 @@ def answer(user, query, request_id, mode="optimized", run_label="live"):
     if use_cache:
         scope = cache.access_scope(user)
         cache_vec = embed_one(cache.normalize(query))
-        hit = cache.lookup(cache_vec, scope)
+        hit = cache.lookup(cache_vec, scope, query)
         if hit:
             sources = hit["sources"]
             audit.log_retrieval(request_id, user, query, sources, "cache", 0)
-            latency_ms = (time.perf_counter() - start) * 1000
+            latency_ms = max((time.perf_counter() - start - waited_total) * 1000, 0.0)
             row = metrics.log_request(run_label, request_id, user, query, True, None, "cache",
                                       False, 0, 0, 0.0, latency_ms)
             return {"answer": hit["answer"], "sources": sources, "cache_hit": True, "route": None,
@@ -96,7 +98,7 @@ def answer(user, query, request_id, mode="optimized", run_label="live"):
     if use_cache and cache.cacheable(final_answer, allowed):
         cache.store(cache_vec, scope, query, final_answer, allowed)
 
-    latency_ms = (time.perf_counter() - start) * 1000
+    latency_ms = max((time.perf_counter() - start - waited_total) * 1000, 0.0)
     row = metrics.log_request(run_label, request_id, user, query, False,
                               route if allowed else None, ",".join(models_used) or "none",
                               escalated, tokens_in, tokens_out, cost, latency_ms)

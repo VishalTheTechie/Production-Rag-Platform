@@ -3,3 +3,4 @@
 __pycache__/
 audit.db
 metrics.db
+Results.txt

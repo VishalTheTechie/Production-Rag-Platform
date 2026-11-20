@@ -1,6 +1,7 @@
 import auth
 import audit
 import cache
+import config
 import corpus
 import docs_admin
 import metrics
@@ -89,3 +90,28 @@ def test_requests_are_logged_with_cost():
     ask("acme_corp_hr")
     df = metrics.load("test")
     assert len(df) == 1 and df.cost_usd.iloc[0] > 0
+
+
+def test_number_guard_blocks_different_level(monkeypatch):
+    monkeypatch.setattr(config, "CACHE_THRESHOLD", 0.0)       # let the guard make the decision
+    ask("acme_corp_hr", "What is the bonus target for L4 employees?")
+    assert ask("acme_corp_hr", "What is the bonus target for L5 employees?")["cache_hit"] is False
+
+
+def test_verifier_can_reject_and_accept(monkeypatch):
+    monkeypatch.setattr(config, "CACHE_THRESHOLD", 0.0)
+    monkeypatch.setattr(config, "VERIFY_ENABLED", True, raising=False)
+    monkeypatch.setattr(config, "VERIFY_THRESHOLD", 0.5, raising=False)
+    ask("acme_corp_hr", "What is the bonus payout date?")
+    monkeypatch.setattr(cache.verifier, "same_question_score", lambda a, b: 0.1)
+    assert ask("acme_corp_hr", "When are bonuses paid?")["cache_hit"] is False
+    monkeypatch.setattr(cache.verifier, "same_question_score", lambda a, b: 0.9)
+    assert ask("acme_corp_hr", "When do annual bonuses get paid out?")["cache_hit"] is True
+
+
+def test_latency_excludes_rate_limit_waiting(monkeypatch):
+    monkeypatch.setattr(pipeline, "generate_ex", lambda *a, **k: {
+        "text": "ok [acme_corp__handbook#0]", "input_tokens": 10, "output_tokens": 5,
+        "model": "groq:openai/gpt-oss-20b", "waited_s": 500.0})
+    r = ask("acme_corp_hr", "How many holidays are there?")
+    assert r["latency_ms"] < 5_000          # the 500 s of "waiting" is not counted as latency
