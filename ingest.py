@@ -40,7 +40,7 @@ def main():
     for doc in manifest:
         if not doc.get("tenant_id"):
             raise ValueError(f"{doc['doc_id']} has no tenant_id - refusing to ingest")
-        chunks = chunk_text(Path(doc["path"]).read_text(encoding="utf-8"))
+        chunks = chunk_text(Path(doc["path"].replace("\\", "/")).read_text(encoding="utf-8"))
         vectors = embed(chunks)
         points = []
         for i, (text, vec) in enumerate(zip(chunks, vectors)):

@@ -11,7 +11,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\acme_corp\\handbook.md"
+    "path": "data/docs/acme_corp/handbook.md"
   },
   {
     "doc_id": "acme_corp__product_faq",
@@ -25,7 +25,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\acme_corp\\product_faq.md"
+    "path": "data/docs/acme_corp/product_faq.md"
   },
   {
     "doc_id": "acme_corp__it_policy",
@@ -39,7 +39,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\acme_corp\\it_policy.md"
+    "path": "data/docs/acme_corp/it_policy.md"
   },
   {
     "doc_id": "acme_corp__runbook",
@@ -53,7 +53,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\acme_corp\\runbook.md"
+    "path": "data/docs/acme_corp/runbook.md"
   },
   {
     "doc_id": "acme_corp__salary_bands",
@@ -67,7 +67,7 @@
     "allowed_users": [
       "acme_corp_manager"
     ],
-    "path": "data\\docs\\acme_corp\\salary_bands.md"
+    "path": "data/docs/acme_corp/salary_bands.md"
   },
   {
     "doc_id": "acme_corp__board_notes",
@@ -78,7 +78,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\acme_corp\\board_notes.md"
+    "path": "data/docs/acme_corp/board_notes.md"
   },
   {
     "doc_id": "globex_health__handbook",
@@ -92,7 +92,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\globex_health\\handbook.md"
+    "path": "data/docs/globex_health/handbook.md"
   },
   {
     "doc_id": "globex_health__product_faq",
@@ -106,7 +106,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\globex_health\\product_faq.md"
+    "path": "data/docs/globex_health/product_faq.md"
   },
   {
     "doc_id": "globex_health__it_policy",
@@ -120,7 +120,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\globex_health\\it_policy.md"
+    "path": "data/docs/globex_health/it_policy.md"
   },
   {
     "doc_id": "globex_health__runbook",
@@ -134,7 +134,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\globex_health\\runbook.md"
+    "path": "data/docs/globex_health/runbook.md"
   },
   {
     "doc_id": "globex_health__salary_bands",
@@ -148,7 +148,7 @@
     "allowed_users": [
       "globex_health_manager"
     ],
-    "path": "data\\docs\\globex_health\\salary_bands.md"
+    "path": "data/docs/globex_health/salary_bands.md"
   },
   {
     "doc_id": "globex_health__board_notes",
@@ -159,7 +159,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\globex_health\\board_notes.md"
+    "path": "data/docs/globex_health/board_notes.md"
   },
   {
     "doc_id": "initech_labs__handbook",
@@ -173,7 +173,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\initech_labs\\handbook.md"
+    "path": "data/docs/initech_labs/handbook.md"
   },
   {
     "doc_id": "initech_labs__product_faq",
@@ -187,7 +187,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\initech_labs\\product_faq.md"
+    "path": "data/docs/initech_labs/product_faq.md"
   },
   {
     "doc_id": "initech_labs__it_policy",
@@ -201,7 +201,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\initech_labs\\it_policy.md"
+    "path": "data/docs/initech_labs/it_policy.md"
   },
   {
     "doc_id": "initech_labs__runbook",
@@ -215,7 +215,7 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\initech_labs\\runbook.md"
+    "path": "data/docs/initech_labs/runbook.md"
   },
   {
     "doc_id": "initech_labs__salary_bands",
@@ -229,7 +229,7 @@
     "allowed_users": [
       "initech_labs_manager"
     ],
-    "path": "data\\docs\\initech_labs\\salary_bands.md"
+    "path": "data/docs/initech_labs/salary_bands.md"
   },
   {
     "doc_id": "initech_labs__board_notes",
@@ -240,6 +240,6 @@
       "admin"
     ],
     "allowed_users": [],
-    "path": "data\\docs\\initech_labs\\board_notes.md"
+    "path": "data/docs/initech_labs/board_notes.md"
   }
 ]

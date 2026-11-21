@@ -54,7 +54,7 @@ def main():
                 "classification": cls,
                 "allowed_roles": roles,
                 "allowed_users": [u.format(tenant=tenant) for u in doc_users],
-                "path": str(path),
+                "path": path.as_posix(),
             })
         for name, roles in ROLE_NAMES.items():
             users.append({"user_id": f"{tenant}_{name}", "tenant_id": tenant, "roles": roles})
