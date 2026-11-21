@@ -1,4 +1,5 @@
 # Production RAG Platform
+![tests](https://github.com/VishalTheTechie/Production-Rag-Platform/actions/workflows/tests.yml/badge.svg)
 
 A retrieval-augmented generation (RAG) service built the way a company would need it: **secure** (multi-tenant access control), **cost-aware** (semantic cache and model routing), and **smarter on hard questions** (a GraphRAG module for multi-hop questions). Every claim below comes from a script in this repo that you can rerun.
 
